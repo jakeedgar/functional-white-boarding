@@ -41,4 +41,4 @@
     Input: [9, 2, 7, 12]
 
     Output: [2, 7, 9, 12]
-  * To solve this there are a variety of methods available. Some more efficient than others. 
+  * To solve this there are a variety of methods available. Some more efficient than others. Bubble Sort is the easiest to implement, and merge sort is among the fastest. I am currently researching ways to convert loops to recursive functions so that I can refactor my solution from two nested for loops to two nested recursive functions fulfilling the same role. This is based on the bubble sort method. 
