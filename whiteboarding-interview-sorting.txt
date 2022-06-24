@@ -1,0 +1,30 @@
+Sorting Question. :) 
+
+// Solve it with loops
+// plan to refactor afterwards
+// Probably use nested For Loops 
+// Using JavaScript
+// Refactor afterwards to be a pure function
+// Nested for loops with I and J variables
+// Bubble sort method 
+// will need a local variable to control value switching
+// relies on nested for loops to switch the positions of the values until the list is sorted. 
+
+
+expected outcome = [2, 7, 9, 12]
+
+const unsortedArray = [9, 2, 7, 12]
+
+const bubbleSort = (array) => {
+	const arr = [...array];
+	for (let i = 0; i < arr.length - 1; i++) {
+		for (let j = 0; j < arr.length - 1; j++) {
+			if (arr[j] > arr[j+1]) {
+			let temp = arr[j]
+			arr[j] = arr[j+1]
+			arr[j+1] = temp
+			}
+		}
+	}
+	return arr; 
+}
